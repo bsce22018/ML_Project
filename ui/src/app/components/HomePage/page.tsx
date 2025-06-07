@@ -41,7 +41,7 @@ export default function Home() {
             Hill Climbing Game
           </h2>
           <p className="text-slate-400 text-center group-hover:text-white transition">
-            Control a car on a bumpy hill using your hand gestures. Coming soon!
+            Control a car on a bumpy hill using your hand gestures.
           </p>
         </div>
       </div>

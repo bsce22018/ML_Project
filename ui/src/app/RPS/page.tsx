@@ -29,6 +29,8 @@ export default function Game() {
   const [aiMove, setAiMove] = useState<string>("");
   const [result, setResult] = useState<string>("");
 
+
+
   useEffect(() => {
     const startCamera = async () => {
       const stream = await navigator.mediaDevices.getUserMedia({ video: true });
@@ -114,6 +116,10 @@ export default function Game() {
       console.error("Prediction error:", err);
     }
   };
+
+
+
+
 
   const resetScores = async () => {
     await axios.post("http://localhost:5000/reset");
@@ -219,6 +225,8 @@ export default function Game() {
             >
               Reset Scores
             </button>
+           
+
           </div>
         </div>
       </div>
